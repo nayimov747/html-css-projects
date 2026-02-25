@@ -6,8 +6,6 @@ This repository contains my practical projects built using **HTML5 and CSS3**.
 These projects represent my learning journey in frontend development.  
 Each project is more advanced than the previous one.
 
----
-
 ## 🧠 Skills Practiced
 
 - Semantic HTML5
@@ -16,8 +14,6 @@ Each project is more advanced than the previous one.
 - Media Queries
 - Clean Code Structure
 - Basic UI/UX Principles
-
----
 
 ## 📁 Projects
 
@@ -33,16 +29,12 @@ The purpose of this repository is to:
 - Practice real-world layout building
 - Track my progress as a developer
 
----
-
 ## 🚀 Next Goals
 
 - Add JavaScript interactivity
 - Clone real website designs
 - Improve UI consistency
 - Build a personal portfolio website
-
----
 
 ## 👨‍💻 Author
 

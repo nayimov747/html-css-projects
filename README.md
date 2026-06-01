@@ -32,6 +32,6 @@ The purpose of this repository is to:
 ### 👨‍💻 Author
 
 **Azizbek Nayimov**  
-Junior Frontend Developer  
+Junior FullStack Developer  
 
 

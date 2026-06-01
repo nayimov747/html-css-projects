@@ -17,7 +17,7 @@ Each project is more advanced than the previous one.
 
 ### 📁 Projects
 
-- [`01-some`](/01-art-design) - [`demo`](https://nayimov747.github.io/html-css-projects/01-art-design) 
+- [`01-art-design`](/01-art-design) - [`demo`](https://nayimov747.github.io/html-css-projects/01-art-design) 
 - [`02-namanganliklar24`](/02-namanganliklar24) - [`demo`](https://azizbek747nayimov.github.io/html-css-projects/02-namanganliklar24)
 - [`03-my-team`](/03-my-team) - [`demo`](https://azizbek747nayimov.github.io/html-css-projects/03-my-team)
 - [`04-game-landing`](/04-game-landing) - [`demo`](https://azizbek747nayimov.github.io/html-css-projects/04-game-landing)

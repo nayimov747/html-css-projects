@@ -1,0 +1,103 @@
+@use "../abstracts" as *;
+
+.footer {
+  background-color: var(--color-dark-green);
+  padding: 50px 20px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    @include tablet {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+
+  &__left {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+
+    @include mobile {
+      gap: 50px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    &-top {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      @include mobile {
+        align-items: center;
+      }
+    }
+  }
+
+  &__address {
+    color: #ffffff9d;
+  }
+
+  &__nav-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+
+    @include mobile {
+      justify-content: center;
+      margin-top: 25px;
+    }
+  }
+
+  &__nav-link {
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 600;
+
+    &:hover {
+      color: var(--color-light-coral);
+    }
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+    justify-content: space-between;
+
+    @include tablet {
+      flex-direction: row;
+      gap: 20px;
+    }
+
+    @include mobile {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: 20px;
+
+    &-link {
+      color: var(--color-white);
+      font-size: 24px;
+
+      &:hover {
+        color: var(--color-light-coral);
+      }
+    }
+  }
+
+  &__copyright {
+    color: #ffffff9d;
+    font-size: 14px;
+  }
+}

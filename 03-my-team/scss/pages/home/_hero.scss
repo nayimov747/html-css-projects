@@ -1,0 +1,69 @@
+@use "../../abstracts" as *;
+
+.hero {
+  background-color: var(--color-midnight-green);
+  background-image: url("../images/shape1.svg");
+  background-repeat: no-repeat;
+  background-position: left 30%;
+
+  @include tablet {
+    background-image: none;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+    padding: 80px 20px 220px;
+    background-image: url("../images/shape2.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    @include tablet {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background-position: center bottom;
+    }
+  }
+
+  &__title {
+    color: var(--color-white);
+    text-wrap: nowrap;
+
+    &--highlight {
+      color: var(--color-light-coral);
+    }
+  }
+
+  &__text {
+    color: var(--color-white);
+    width: 400px;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 4px;
+      background-color: var(--color-rapture-blue);
+      margin-top: 20px;
+      position: absolute;
+      top: -90px;
+      left: 0;
+    }
+
+    @include tablet {
+      width: 450px;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    @include mobile {
+      width: 300px;
+    }
+  }
+}

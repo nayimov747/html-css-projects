@@ -1,0 +1,58 @@
+@use "../../abstracts" as *;
+
+.about-hero {
+  background-color: var(--color-midnight-green);
+  padding: 100px 20px;
+  background-image: url("../images/shape7.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+
+  @include tablet {
+    padding: 80px 50px;
+    text-align: center;
+  }
+  @include mobile {
+    padding: 120px 20px;
+    background-position: right 350px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include tablet {
+      flex-direction: column;
+    }
+  }
+
+  &__title {
+    color: var(--color-white);
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    color: var(--color-white);
+    width: 600px;
+
+    @include tablet {
+      width: 450px;
+    }
+    @include mobile {
+      width: 100%;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 4px;
+      background-color: var(--color-light-coral);
+      margin-bottom: 40px;
+
+      @include tablet {
+        display: none;
+      }
+    }
+  }
+}

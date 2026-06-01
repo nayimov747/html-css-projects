@@ -1,0 +1,83 @@
+@use "../abstracts" as *;
+
+.offcanvas {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+  background: var(--color-police-blue);
+  background-image: url(../images/shape7.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: fixed;
+  top: 0;
+  right: -100%; // boshlanishida yashirin
+  width: 280px;
+  height: 100vh;
+  padding: 55px 25px 25px 50px;
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+
+  &.active {
+    right: 0; // chiqadi
+  }
+
+  .offcanvas__close {
+    align-self: end;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    &-item {
+      margin-bottom: 30px;
+
+      a {
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: 600;
+        text-transform: lowercase;
+        width: 100%;
+        display: block;
+
+        &:hover {
+          color: var(--color-light-coral);
+        }
+
+        &.active {
+          color: var(--color-light-coral);
+        }
+      }
+    }
+  }
+
+  
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); // qoraroq fon
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 900; // offcanvasdan bitta pastroq bo‘lsin
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+}

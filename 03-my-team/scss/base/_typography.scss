@@ -1,0 +1,75 @@
+@use "../abstracts" as *;
+
+
+.heading--h1--lg {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 700;
+
+  @include tablet{
+    font-size: 64px;
+    line-height: 56px;
+  }
+  @include mobile{
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+.heading--h1--sm {
+  font-size: 64px;
+  line-height: 56px;
+  font-weight: 700;
+
+  @include tablet{
+    font-size: 64px;
+    line-height: 56px;
+  }
+  @include mobile{
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+.heading--h2 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+
+  @include tablet{
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+.heading--h3 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+
+  @include tablet{
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.text--body-1 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+
+  @include tablet{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+}
+.text--body-2 {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+
+  @include tablet{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+}

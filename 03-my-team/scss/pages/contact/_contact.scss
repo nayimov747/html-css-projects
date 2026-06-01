@@ -1,0 +1,97 @@
+@use "../../abstracts" as *;
+
+.contact {
+  background-color: var(--color-midnight-green);
+  padding: 100px 20px;
+  background-image: url("../images/shape8.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+
+  @include tablet {
+    padding: 80px;
+  }
+  @include mobile {
+    padding: 80px 30px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    @include tablet {
+      flex-direction: column;
+    }
+  }
+
+  &__left {
+    flex: 1;
+
+    @include tablet {
+      width: 100%;
+    }
+  }
+
+  &__right {
+    flex: 1;
+
+    @include tablet {
+      width: 100%;
+      margin-top: 50px;
+    }
+  }
+
+  &__title {
+    color: var(--color-white);
+    margin-bottom: 40px;
+
+    @include tablet {
+      text-align: center;
+    }
+  }
+
+  &__subtitle {
+    color: var(--color-light-coral);
+    max-width: 700px; // width o‘rniga max-width
+    font-size: 32px;
+    margin-bottom: 40px;
+
+    @include tablet {
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  &__features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__feature {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--color-white);
+  }
+
+  &__form-input,
+  &__form-textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+    background-color: transparent;
+    padding: 20px 10px;
+    color: #fff;
+    font-family: var(--font-family);
+
+    &::placeholder {
+      color: #ffffff70;
+      font-family: var(--font-family);
+    }
+  }
+}

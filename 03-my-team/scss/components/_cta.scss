@@ -1,0 +1,29 @@
+@use "../abstracts" as *;
+
+.cta {
+  background-color: var(--color-light-coral);
+  overflow: hidden;
+  background-image: url("../../images/shape6.svg");
+  background-position: left 70px;
+  background-repeat: no-repeat;
+
+  @include mobile {
+    background-position: left 140px;
+  }
+
+  &__wrapper {
+    padding: 70px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include tablet {
+      padding: 60px 70px;
+    }
+    @include mobile {
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+    }
+  }
+}

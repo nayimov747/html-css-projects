@@ -1,0 +1,55 @@
+@use "../../abstracts" as *;
+
+.clients {
+  background-color: var(--color-sacramento-state-green);
+  padding: 100px 20px;
+  background-image: url("../images/shape10.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+
+  @include tablet {
+    padding: 80px 50px;
+    background-position: -100px -100px;
+  }
+  @include mobile {
+    padding: 80px 20px;
+    overflow: hidden;
+    background-position: -100px -100px;
+  }
+
+  &__title {
+    color: var(--color-white);
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  &__grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+    @include tablet {
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    @include mobile {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+
+  .client__img {
+    height: 25px;
+    transition: transform 0.3s ease-in-out;
+    filter: brightness(0) invert(1);
+
+    @include tablet {
+      height: 20px;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

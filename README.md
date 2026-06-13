@@ -21,6 +21,7 @@ Each project is more advanced than the previous one.
 - [`02-namanganliklar24`](/02-namanganliklar24) - [`demo`](https://nayimov747.github.io/html-css-projects/02-namanganliklar24)
 - [`03-my-team`](/03-my-team) - [`demo`](https://nayimov747.github.io/html-css-projects/03-my-team)
 - [`04-game-landing`](/04-game-landing) - [`demo`](https://nayimov747.github.io/html-css-projects/04-game-landing)
+- [`05-azyk-books`](/05-azyk-books) - [`demo`](https://nayimov747.github.io/html-css-projects/05-azyk-books)
 
 ### 🎯 Purpose
 

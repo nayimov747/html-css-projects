@@ -22,6 +22,9 @@ Each project is more advanced than the previous one.
 - [`03-my-team`](/03-my-team) - [`demo`](https://nayimov747.github.io/html-css-projects/03-my-team)
 - [`04-game-landing`](/04-game-landing) - [`demo`](https://nayimov747.github.io/html-css-projects/04-game-landing)
 - [`05-azyk-books`](/05-azyk-books) - [`demo`](https://nayimov747.github.io/html-css-projects/05-azyk-books)
+- [`06-blood-donor`](/06-blood-donor) - [`demo`](https://nayimov747.github.io/html-css-projects/06-blood-donor)
+
+
 
 ### 🎯 Purpose
 

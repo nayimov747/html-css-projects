@@ -11,6 +11,7 @@
     />
   </head>
   <body>
+    <!-- Header -->
     <header>
       <nav>
         <div class="logo">Azyk Books</div>
@@ -27,7 +28,7 @@
           <i class="fas fa-search"></i>
           <span>EN <i class="fas fa-chevron-down"></i></span>
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToRJ4RG3u98VSGbDARezZTIuq-MmfBpAR9EA&s"
+            src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
             alt=""
             width="50"
             class="user-avatar"
@@ -40,41 +41,309 @@
       </nav>
     </header>
 
+    <!-- Mobile Navigation -->
     <div class="mobile-nav" id="mobileNav">
       <div class="close-menu">
         <i class="fas fa-close" onclick="toggleMenu()"></i>
-
-        <a href="#home">Home</a>
-        <a href="#shop">Shop</a>
-        <a href="#ebook">E-Book</a>
-        <a href="#about">About</a>
-        <a href="#cart">My cart</a>
       </div>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#ebook">E-Book</a>
+      <a href="#about">About</a>
+      <a href="#cart">My cart</a>
     </div>
 
     <!-- Hero section -->
     <section class="hero" id="home">
       <div class="hero-text">
-        <h1>Find Your <br> Next Book</h1>
+        <h1>
+          Find Your <br />
+          Next Book
+        </h1>
         <p>Discover a world where every page brings a new adventure.</p>
-        <button class="btn">Explore Now <i class="fas fa-arrow-right"></i></button>
+        <button class="btn">
+          Explore Now <i class="fas fa-arrow-right"></i>
+        </button>
       </div>
 
       <div class="book-slider-container">
         <div class="book-slider">
-          <div class="book-card">
-            <img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+          <div class="book-card active">
+            <img
+              src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
           </div>
           <div class="book-card">
-            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            <img
+              src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+            />
           </div>
           <div class="book-card">
-            <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJvb2t8ZW58MHx8MHx8fDA%3D" alt="">
+            <img
+              src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJvb2t8ZW58MHx8MHx8fDA%3D"
+              alt=""
+            />
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Author section -->
+    <section class="authors">
+      <div class="author-card">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnZeUVLNEh7JRKgH6M1H4PQi4PtA5X8-i2yQ&s"
+          alt=""
+        />
+        <span>Author one</span>
+      </div>
+      <div class="author-card">
+        <img
+          src="https://media.istockphoto.com/id/1336524166/photo/young-book-author.jpg?s=612x612&w=0&k=20&c=2ptTjwEEbCzq_sKgyGPhML7FdV7P8ph34fggZKtN3WU="
+          alt=""
+        />
+        <span>Author Two</span>
+      </div>
+      <div class="author-card">
+        <img
+          src="https://www.thenation.com/wp-content/uploads/2022/04/author-photo-getty-img.jpg"
+          alt=""
+        />
+        <span>Author Three</span>
+      </div>
+    </section>
+
+    <!-- Recommend Books -->
+    <section class="recommended" id="shop">
+      <div class="section-header">
+        <h2>Recommend Books</h2>
+        <a href="#" class="see-all">
+          See All
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="books-grid">
+        <div class="book-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaxzzJM2u9KlPYbP8NdD9-lK2PTg5ssf_LkQ&s"
+            alt=""
+          />
+          <h3>Book title</h3>
+          <p>Author name</p>
+          <div class="rating-and-price">
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="price">$20.99</div>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="book-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-8SrFOsOtv4aBArFUoZyh50Tq-n7F0dIW-w&s"
+            alt=""
+          />
+          <h3>Book title</h3>
+          <p>Author name</p>
+          <div class="rating-and-price">
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="price">$20.99</div>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="book-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcJlr6q8UD4u06r810PeiD6EoXZcqkg7pcwQ&s"
+            alt=""
+          />
+          <h3>Book title</h3>
+          <p>Author name</p>
+          <div class="rating-and-price">
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="price">$20.99</div>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="book-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkoHKIsIOdQsoU6kaYCSXgWRz-GD-RBeTY1Q&s"
+            alt=""
+          />
+          <h3>Book title</h3>
+          <p>Author name</p>
+          <div class="rating-and-price">
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="price">$20.99</div>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="book-item">
+          <img
+            src="https://cdn.asaxiy.uz/asaxiy-content/product/items/mobile/e8c6d31251f1fe4f94b86838c36cc631202510281239272473715jkWAbfK6.png.webp"
+            alt=""
+          />
+          <h3>Book title</h3>
+          <p>Author name</p>
+          <div class="rating-and-price">
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="price">$20.99</div>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="book-item">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5CHvBkgdAfifS5rpBjcI0IDYBzG5MFX7q-w&s"
+            alt=""
+          />
+          <h3>Book title</h3>
+          <p>Author name</p>
+          <div class="rating-and-price">
+            <div class="rating">⭐⭐⭐⭐⭐</div>
+            <div class="price">$20.99</div>
+          </div>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+      <section class="section-header">
+        <h2>What Our Readers Say</h2>
+      </section>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-header">
+            <img
+              src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+            />
+            <div class="reviewer-info">
+              <h4>John Doe</h4>
+              <div class="stars">❤️❤️❤️❤️❤️</div>
+            </div>
+          </div>
+          <div class="review-text">
+            "I absolutely love this bookstore! The selection is amazing and the
+            staff is so helpful. I found my new favorite book here!"
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <img
+              src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+            />
+            <div class="reviewer-info">
+              <h4>John Doe</h4>
+              <div class="stars">❤️❤️❤️❤️❤️</div>
+            </div>
+          </div>
+          <div class="review-text">
+            "I absolutely love this bookstore! The selection is amazing and the
+            staff is so helpful. I found my new favorite book here!"
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <img
+              src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+            />
+            <div class="reviewer-info">
+              <h4>John Doe</h4>
+              <div class="stars">❤️❤️❤️❤️❤️</div>
+            </div>
+          </div>
+          <div class="review-text">
+            "I absolutely love this bookstore! The selection is amazing and the
+            staff is so helpful. I found my new favorite book here!"
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <img
+              src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+              alt=""
+            />
+            <div class="reviewer-info">
+              <h4>John Doe</h4>
+              <div class="stars">❤️❤️❤️❤️❤️</div>
+            </div>
+          </div>
+          <div class="review-text">
+            "I absolutely love this bookstore! The selection is amazing and the
+            staff is so helpful. I found my new favorite book here!"
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Azyk Books</h3>
+          <p>
+            Discover a world of stories and knowledge with Azyk Books. Your next
+            favorite book is just a click away.
+          </p>
+          <ul class="socials">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#ebook">E-Book</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Customer Service</h3>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Returns & Exchanges</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 123 Bookworm Lane, Literary
+            City
+          </p>
+          <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+          <p><i class="fas fa-envelope"></i> info@azykbooks.com</p>
+          <p><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2026 Azyk Books. All rights reserved.
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>

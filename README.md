@@ -25,7 +25,6 @@ Each project is more advanced than the previous one.
 - [`06-blood-donor`](/06-blood-donor) - [`demo`](https://nayimov747.github.io/html-css-projects/06-blood-donor)
 
 
-
 ### 🎯 Purpose
 
 The purpose of this repository is to:

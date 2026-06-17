@@ -23,6 +23,7 @@ Each project is more advanced than the previous one.
 - [`04-game-landing`](/04-game-landing) - [`demo`](https://nayimov747.github.io/html-css-projects/04-game-landing)
 - [`05-azyk-books`](/05-azyk-books) - [`demo`](https://nayimov747.github.io/html-css-projects/05-azyk-books)
 - [`06-blood-donor`](/06-blood-donor) - [`demo`](https://nayimov747.github.io/html-css-projects/06-blood-donor)
+- [`07-dentist`](/06-dentist) - [`demo`](https://nayimov747.github.io/html-css-projects/06-dentist)
 
 
 ### 🎯 Purpose
